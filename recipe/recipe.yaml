@@ -237,6 +237,7 @@ outputs:
           source:
             - ${{ go_mod }}/conformance/fixtures/behavior.sysml
             - ${{ go_mod }}/conformance/fixtures/views.sysml
+            - ${{ go_mod }}/conformance/fixtures/visibility.sysml
             - ${{ go_mod }}/internal/doc/docrender/testdata/telescope_report.golden.html
             - ${{ go_mod }}/internal/doc/docrender/testdata/telescope_report.golden.md
             - ${{ go_mod }}/internal/doc/docrender/testdata/telescope_report.sysml
@@ -244,6 +245,8 @@ outputs:
             - ${{ go_mod }}/internal/frontend/repl/testdata/vehicle_package.sysml
             - ${{ go_mod }}/tests/grpc/testdata/conformance/document_query_object_by_path.sysml
             - ${{ go_mod }}/tests/grpc/testdata/conformance/document_query_states.sysml
+            - ${{ go_mod }}/tests/grpc/testdata/conformance/query_result_view.sysml
+            - ${{ go_mod }}/tests/grpc/testdata/conformance/query_result_view.sysml
             - ${{ go_mod }}/tests/migrate/testdata/xmi/layout.layout.xml
             - ${{ go_mod }}/tests/migrate/testdata/xmi/layout.xmi
             - ${{ go_mod }}/tests/migrate/testdata/xmi/vehicle.xmi
